@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b120e">
+  <meta name="description" content="MOB Companion is an independent companion concept for FACEIT players, combining a playful on-screen mascot with match context and player analytics." />
+  <title>MOB Companion — Your little FACEIT teammate</title>
+  <link rel="icon" type="image/png" href="assets/mob-mascot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar wrap">
+    <a class="brand" href="#top" aria-label="MOB Companion home">
+      <span class="brand-mark"><img src="assets/mob-mascot.png" alt="MOB mascot"></span>
+      <span class="brand-name">MOB<span>COMPANION</span></span>
+    </a>
+    <nav class="nav">
+      <a href="#about">About</a><a href="#features">Features</a><a href="#roadmap">Roadmap</a>
+    </nav>
+    <a class="nav-cta" href="#status">Project status <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> INDEPENDENT COMMUNITY PROJECT</div>
+        <h1>Your little<br><em>FACEIT</em> teammate.</h1>
+        <p class="hero-lead">Meet MOB: a cheeky on-screen companion designed to make your FACEIT sessions more personal, more informative, and a lot less quiet.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#about">Meet MOB <span>↓</span></a><a class="button button-ghost" href="#roadmap">Explore the project</a></div>
+        <div class="hero-note"><span class="dot"></span> Currently in active prototype development</div>
+      </div>
+      <div class="hero-art" aria-label="MOB green mascot">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-glow"></div>
+        <div class="mascot-card"><img src="assets/mob-mascot.png" alt="The green MOB mascot"><span class="mascot-shadow"></span></div>
+        <div class="float-chip chip-top"><span class="chip-icon">✦</span> Always around</div>
+        <div class="float-chip chip-bottom"><span class="live-dot"></span> Ready when you are</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="MOB personality"><div class="ticker-track"><span>SMALL CREATURE</span><i>✳</i><span>BIG PERSONALITY</span><i>✳</i><span>MATCH INSIGHTS</span><i>✳</i><span>A LITTLE SASS</span><i>✳</i><span>SMALL CREATURE</span><i>✳</i><span>BIG PERSONALITY</span><i>✳</i><span>MATCH INSIGHTS</span><i>✳</i><span>A LITTLE SASS</span><i>✳</i></div></section>
+
+    <section class="section wrap" id="about">
+      <div class="section-kicker">01 / THE IDEA</div>
+      <div class="section-head"><h2>Not another stats panel.<br><em>A teammate with a character.</em></h2><p>MOB lives on FACEIT pages as a small movable mascot. It can react to where you are, speak up at the right moment, and open a dedicated panel when you need more detail.</p></div>
+      <div class="about-grid">
+        <article class="about-card dark-card"><div class="card-symbol">◉</div><h3>A companion on the page</h3><p>A compact floating character that stays out of the way, can be moved around, and has its own visual personality.</p><span class="card-index">01</span></article>
+        <article class="about-card green-card"><div class="card-symbol">✳</div><h3>Context-aware reactions</h3><p>Different comments and expressions for profiles, rankings, match rooms, queues, and quiet moments.</p><span class="card-index">02</span></article>
+        <article class="about-card dark-card"><div class="card-symbol">⌁</div><h3>Useful match intelligence</h3><p>The planned analytics layer will turn available player and match data into readable comparisons and map insights.</p><span class="card-index">03</span></article>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="features"><div class="wrap">
+      <div class="section-kicker">02 / WHAT WE ARE BUILDING</div>
+      <div class="section-head"><h2>Personality first.<br><em>Insight next.</em></h2><p>The project is being developed in stages. The current prototype focuses on the mascot and interaction. Data-driven features are planned for later releases.</p></div>
+      <div class="feature-list">
+        <div class="feature-row"><div class="feature-number">A</div><div><h3>Animated mascot</h3><p>Distinct visual states, movement, reactions, and configurable appearance.</p></div><span class="status-pill status-prototype">Prototype</span></div>
+        <div class="feature-row"><div class="feature-number">B</div><div><h3>Contextual banter</h3><p>A growing library of situational lines, with cooldowns to avoid repeating itself.</p></div><span class="status-pill status-prototype">Prototype</span></div>
+        <div class="feature-row"><div class="feature-number">C</div><div><h3>Player and team analysis</h3><p>Planned comparisons using available match history and player statistics.</p></div><span class="status-pill status-planned">Planned</span></div>
+        <div class="feature-row"><div class="feature-number">D</div><div><h3>Map recommendations</h3><p>Planned map insights based on both teams' available results and sample sizes.</p></div><span class="status-pill status-planned">Planned</span></div>
+        <div class="feature-row"><div class="feature-number">E</div><div><h3>Match forecast</h3><p>A future model that will be evaluated against completed matches, not presented as a guarantee.</p></div><span class="status-pill status-planned">Planned</span></div>
+      </div>
+    </div></section>
+
+    <section class="section wrap" id="roadmap">
+      <div class="section-kicker">03 / ROADMAP</div>
+      <div class="section-head"><h2>Built in careful<br><em>iterations.</em></h2><p>We are prioritising a stable browser experience before adding more complex data features.</p></div>
+      <div class="roadmap">
+        <div class="roadmap-item done"><span class="roadmap-point"></span><div><div class="roadmap-meta">PHASE 01 <span>IN PROGRESS</span></div><h3>Companion foundation</h3><p>Floating mascot, interaction, appearance settings, movement states, and page-aware behaviour.</p></div></div>
+        <div class="roadmap-item"><span class="roadmap-point"></span><div><div class="roadmap-meta">PHASE 02 <span>UP NEXT</span></div><h3>Official data integration</h3><p>Connect to supported FACEIT developer interfaces and validate which statistics are available.</p></div></div>
+        <div class="roadmap-item"><span class="roadmap-point"></span><div><div class="roadmap-meta">PHASE 03</div><h3>Analytics engine</h3><p>Player form, team comparisons, map strengths, and a transparent match forecast.</p></div></div>
+        <div class="roadmap-item"><span class="roadmap-point"></span><div><div class="roadmap-meta">PHASE 04</div><h3>Public release preparation</h3><p>Compatibility testing, privacy review, documentation, and release packaging.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="status"><div class="status-panel"><div><div class="section-kicker">PROJECT STATUS</div><h2>Early prototype.<br><em>Growing with every update.</em></h2><p>MOB Companion is an independent project under active development. Features shown as planned are not yet available in the current prototype.</p></div><div class="status-side"><div class="status-orb"><img src="assets/mob-mascot.png" alt="MOB mascot"></div><div class="status-label"><span class="live-dot"></span> DEVELOPMENT</div><div class="version-label">PROJECT BUILD · 0.x</div></div></div></section>
+  </main>
+
+  <footer class="footer wrap"><div class="footer-brand"><span class="mini-mark"><img src="assets/mob-mascot.png" alt=""></span><div><strong>MOB COMPANION</strong><small>A little personality for your FACEIT sessions.</small></div></div><p class="disclaimer">MOB Companion is an independent, unofficial community project. It is not affiliated with, endorsed by, or sponsored by FACEIT or its partners. FACEIT is a trademark of its respective owner. Any future data integration will be subject to the applicable developer terms and permissions.</p><div class="footer-bottom"><span>© <span id="year"></span> MOB Companion Project</span><a href="privacy.html">Privacy overview</a><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
